@@ -1,14 +1,20 @@
+//creates a model from where we'll creates all attributes eg getters,setter and constructors.
+//This serves a description of my springboot API backend service
 package com.tdcodes.khomosystem.model;
 
+//import from the java libraries
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
+//class khomo
 public class Khomo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    //declaration of class variables
     private int id;
     private String name;
     private String Property;
@@ -17,9 +23,10 @@ public class Khomo {
     private String address;
     private String description;
 
+    //a no arg constructor
     public Khomo() {
     }
-
+    //a set of getters and setters to access accessible datafields and methods
     public int getId() {
         return id;
     }
@@ -75,4 +82,4 @@ public class Khomo {
     public void setDescription(String description) {
         this.description = description;
     }
-}
+}//end of class
