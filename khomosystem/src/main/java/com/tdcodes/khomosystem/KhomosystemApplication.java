@@ -1,4 +1,4 @@
-//a package calle khomosystem
+//a package call khomosystem
 package com.tdcodes.khomosystem;
 
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ public class KhomosystemApplication {
 
 	//class's main method
 	public static void main(String[] args) {
-		//access a methos run
+		//access a methods run
 		SpringApplication.run(KhomosystemApplication.class, args);
 	}
 

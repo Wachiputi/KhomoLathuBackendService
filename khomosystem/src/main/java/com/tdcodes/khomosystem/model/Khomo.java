@@ -1,5 +1,3 @@
-//creates a model from where we'll creates all attributes eg getters,setter and constructors.
-//This serves a description of my springboot API backend service
 package com.tdcodes.khomosystem.model;
 
 //import from the java libraries
@@ -82,4 +80,4 @@ public class Khomo {
     public void setDescription(String description) {
         this.description = description;
     }
-}//end of class
+}
